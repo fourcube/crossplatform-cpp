@@ -25,3 +25,14 @@ Hello World, Windows!
 
 Hello World, Linux!
 ```
+
+### MacOS
+
+```
+> gyp --depth . build.gyp
+> xcodebuild -project build.xcodeproj/ -target crossplatform-demo
+
+> ./build/Debug/crossplatform-demo
+
+Hello World, MacOS!
+```
