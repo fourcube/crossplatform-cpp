@@ -1,1 +1,1 @@
-#include "demolib/demolib_test.hpp"
+#include "demolib/demolib_test.cc"
