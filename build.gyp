@@ -26,7 +26,7 @@
       '.',
     ],
     'sources': [
-      'test.cc'
+      'crossplatform-demo.cc'
     ],
     'conditions': [
       ['OS=="linux"', {
@@ -46,6 +46,23 @@
           # 'NON_WINDOWS_DEFINE',
         ],
       }]
+    ],
+  },
+  {
+    'target_name': 'crossplatform-demo-test',
+    'type': 'executable',
+    'msvs_guid': '5ECEC9E5-8F23-47B6-93E0-C3B328B3BE65',
+    'dependencies': [
+      './demolib/demolib.gyp:demolib_test',
+    ],
+    'defines': [
+      #
+    ],
+    'include_dirs': [
+      '.',
+    ],
+    'sources': [
+      'crossplatform-demo-test.cc'
     ],
   },
 ],

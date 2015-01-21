@@ -11,3 +11,7 @@ void print() {
   #error "unknown platform"
   #endif
 }
+
+int sum(int a, int b) {
+  return a + b;
+}
