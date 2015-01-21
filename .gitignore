@@ -14,3 +14,8 @@ out/
 *.Makefile
 Makefile
 *.mk
+
+# MacOS Build
+
+build/
+*.xcodeproj/
