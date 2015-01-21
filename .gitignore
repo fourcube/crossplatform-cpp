@@ -1,0 +1,8 @@
+# Win32 Build
+Debug/
+Release/
+*.sdf
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.user
