@@ -19,11 +19,28 @@ Hello World, Windows!
 
 ```
 > gyp build --depth . build.gyp
-> make
+> make crossplatform-demo
 
 > ./out/Debug/crossplatform-demo
 
 Hello World, Linux!
+```
+
+#### With tests
+
+```
+> gyp build --depth . build.gyp
+> make all
+
+# For all tests
+> ./out/Debug/crossplatform-demo-test
+
+# Individual test
+> ./out/Debug/demolib_test_bin
+
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
 ```
 
 ### MacOS
