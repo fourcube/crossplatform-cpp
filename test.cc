@@ -1,4 +1,4 @@
-#include "demolib\demolib.h"
+#include "demolib/demolib.h"
 
 int main() {
   print();
