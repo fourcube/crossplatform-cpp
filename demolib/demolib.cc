@@ -5,7 +5,7 @@ void print() {
     puts("Hello World, Windows!");
   #elif defined __linux__
     puts("Hello World, Linux!");
-  #elif defined TARGET_OS_MAC
+  #elif defined __APPLE__
     puts("Hello World, MacOS!");
   #else
   #error "unknown platform"
