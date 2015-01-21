@@ -1,21 +1,15 @@
 {
-  "target_defaults": {
-    "configurations": {
-      "Debug": {
-        "defines": [
-          "DEBUG",
-          "_DEBUG"
-        ],
-        "msvs_settings": {
-          "VCLinkerTool": {
-            "GenerateDebugInformation": "true"
-          }
-        }
-      }
-    }
-  },
   "targets": [
     {
+      "configurations": {
+        "Debug": {        
+          "msvs_settings": {
+            "VCLinkerTool": {
+              "GenerateDebugInformation": "true"
+            }
+          }
+        }
+      },
       "target_name": "crossplatform-demo",
       "type": "executable",
       "msvs_guid": "5ECEC9E5-8F23-47B6-93E0-C3B328B3BE65",

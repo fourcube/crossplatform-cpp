@@ -2,10 +2,7 @@
   "target_defaults": {
     "configurations": {
       "Debug": {
-        "defines": [
-          "DEBUG",
-          "_DEBUG"
-        ]
+
       }
     }
   },
